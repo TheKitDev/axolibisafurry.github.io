@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-  ((localStorage.getItem('mode') || 'dark') === 'dark') ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')
+  ((localStorage.getItem('mode') || 'dark') === 'dark') ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark') document.getElementById("mainText").innerHTML = "YOU ARE FRYING YOUR EYES, STOP USING LIGHT THEME";
 })
 
 var texts = [
