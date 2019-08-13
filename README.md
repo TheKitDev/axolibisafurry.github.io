@@ -1,1 +1,2 @@
-# Axolib is a HUGE FURRY
+# Axolib is a FURRY
+#Self-explanatory 
