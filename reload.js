@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-  ((localStorage.getItem('mode') || 'dark') === 'dark') ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark'); document.getElementById("noob").innerHTML = "DON'T USE LIGHT THEME, YOU ARE BOILING YOUR EYES!!";
+  ((localStorage.getItem('mode') || 'dark') === 'dark') ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')
+  
 })
 
 var texts = [
